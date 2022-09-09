@@ -19,6 +19,7 @@ spec:
   # such as nfsServerAddress: "10.233.55.172"
   # nfsServerAddress: 
   mysqlOpts:
+    rootPassword: RadonDB@123
     user: radondb_usr
     password: RadonDB@123
     database: radondb
