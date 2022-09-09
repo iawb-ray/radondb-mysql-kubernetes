@@ -6,6 +6,6 @@ spec:
   # Add fields here
   image: radondb/mysql57-sidecar:v2.2.1
   # hostname if empty, use the leader as hostname
-  hostName: backup-mysql
-  clusterName: backup
+  hostName: mysql-cluster-mysql-0
+  clusterName: host
   # nfsServerAddress: ""
