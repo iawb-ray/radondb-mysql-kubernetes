@@ -1,10 +1,11 @@
 apiVersion: mysql.radondb.com/v1alpha1
 kind: MysqlCluster
 metadata:
-  name: radondb-mysql-cluser
+  name: mysql-cluster
 spec:
   replicas: 3
   mysqlVersion: "5.7"
+  
   # the backupSecretName specify the secret file name which store S3 information,
   # if you want S3 backup or restore, please create backup_secret.yaml, uncomment below and fill secret name:
   backupSecretName: mysql-backup-secret
