@@ -8,8 +8,8 @@ spec:
   
   # the backupSecretName specify the secret file name which store S3 information,
   # if you want S3 backup or restore, please create backup_secret.yaml, uncomment below and fill secret name:
-  backupSecretName: mysql-backup-secret
-  backupSchedule: "0 10 * * * *" 
+#   backupSecretName: mysql-backup-secret
+#   backupSchedule: "0 10 * * * *" 
   
   # if you want create mysqlcluster from S3, uncomment and fill the directory in S3 bucket below:
   # such as restoreFrom: "backup_202241423817"
